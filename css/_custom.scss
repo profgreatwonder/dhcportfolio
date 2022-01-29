@@ -1,0 +1,133 @@
+// import custom designs
+
+// colors
+$bgcolor: #fbeaff;
+$prycolor: #00c0a3;
+// fonts
+@mixin nav-font($nav-line-height: 23px) {
+	font: {
+		family: Roboto;
+		// style: normal;
+		weight: normal;
+		size: 20px;
+	}
+
+	line-height: $nav-line-height;
+}
+
+@mixin logo-font($logo-line-height: 53px, $logo-letter-spacing: -0.14em) {
+	font: {
+		family: Roboto;
+		// style: normal;
+		weight: normal;
+		size: 45px;
+	}
+	line-height: $logo-line-height;
+	letter-spacing: $logo-letter-spacing;
+}
+
+@mixin myname-font($myname-line-height: 45px, $myname-letter-spacing: -0.02em) {
+	font: {
+		family: Arial;
+		// style: normal;
+		weight: bold;
+		size: 34px;
+	}
+
+	line-height: $myname-line-height;
+	letter-spacing: $myname-letter-spacing;
+}
+
+@mixin myintro-font($myintro-line-height: 53px) {
+	font: {
+		family: Playfair Display;
+		// style: normal;
+		weight: normal;
+		size: 40px;
+	}
+	line-height: $myintro-line-height;
+}
+
+@mixin subheading-font(
+	$subhead-line-height: 53px,
+	$subhead-letter-spacing: 0em
+) {
+	font: {
+		font-family: Playfair Display;
+		size: 40px;
+		// style: normal;
+		weight: 400;
+	}
+	line-height: $subhead-line-height;
+	letter-spacing: $subhead-letter-spacing;
+}
+
+@mixin pfonts($pfonts-line-height: 21px) {
+	font: {
+		family: Roboto;
+		// style: normal;
+		weight: 200;
+		size: 18px;
+	}
+
+	line-height: $pfonts-line-height;
+}
+
+@mixin reviewnamefont($reviewnamefont-line-height: 28px) {
+	font: {
+		family: Roboto;
+		// style: normal;
+		weight: 600;
+		size: 24px;
+	}
+	line-height: $reviewnamefont-line-height;
+}
+
+@mixin pricinghead-font(
+	$pricinghead-line-height: 40px,
+	$pricinghead-letter-spacing: -0.02em
+) {
+	font: {
+		family: Arial;
+		// style: normal;
+		weight: 500;
+		size: 30px;
+	}
+	line-height: $pricinghead-line-height;
+	letter-spacing: $pricinghead-letter-spacing;
+}
+
+@mixin pricingbody-font($pricingbody-line-height: 28px) {
+	font: {
+		family: Arial;
+		// style: normal;
+		weight: 300;
+		size: 24px;
+	}
+	line-height: $pricingbody-line-height;
+}
+
+// components
+
+// button
+@mixin contact-button {
+	height: 44px;
+	width: 132px;
+	border-radius: 50px;
+}
+@mixin hireme-button {
+	height: 53px;
+	width: 143px;
+	border-radius: 10px;
+}
+@mixin getintouch-button {
+	height: 56px;
+	width: 217px;
+	border-radius: 50px;
+}
+
+// horizontal line
+@mixin hr-line {
+	width: 51.01px;
+	color: #00c0a3;
+}
