@@ -4,17 +4,6 @@
 $bgcolor: #fbeaff;
 $prycolor: #00c0a3;
 // fonts
-@mixin nav-font($nav-line-height: 23px) {
-	font: {
-		family: Roboto;
-		// style: normal;
-		weight: normal;
-		size: 20px;
-	}
-
-	line-height: $nav-line-height;
-}
-
 @mixin logo-font($logo-line-height: 53px, $logo-letter-spacing: -0.14em) {
 	font: {
 		family: Roboto;
@@ -24,6 +13,16 @@ $prycolor: #00c0a3;
 	}
 	line-height: $logo-line-height;
 	letter-spacing: $logo-letter-spacing;
+}
+@mixin nav-font($nav-line-height: 23px) {
+	font: {
+		family: Roboto;
+		// style: normal;
+		weight: normal;
+		size: 15px;
+	}
+
+	line-height: $nav-line-height;
 }
 
 @mixin myname-font($myname-line-height: 45px, $myname-letter-spacing: -0.02em) {
@@ -111,9 +110,10 @@ $prycolor: #00c0a3;
 
 // button
 @mixin contact-button {
-	height: 44px;
-	width: 132px;
+	// height: 40px;
+	width: 100px;
 	border-radius: 50px;
+	background-color: #00c0a3;
 }
 @mixin hireme-button {
 	height: 53px;
