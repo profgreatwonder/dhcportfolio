@@ -8,20 +8,35 @@ body {
 	@include logo-font;
 }
 
+.menu {
+	li {
+		padding: 0 0.75rem;
+		a {
+			// color: white !important;
+			// text-transform: capitalize
+			font-weight: 600;
+		}
+	}
+}
+
 // .nav-b {
 // 	@include logo-font;
 // }
 
-.navfont {
-	@include nav-font;
-}
+// .navfont {
+// 	@include nav-font;
+// }
+
 .contact-btn {
 	@include contact-button;
 }
 
+.contact-btn:hover {
+	color: white;
+}
+
 .bg-nav-mobile {
 	background-color: $prycolor;
-	// border-radius: 10px;
 	border-top-left-radius: 10px;
 	border-top-right-radius: 10px;
 }
@@ -40,7 +55,26 @@ body {
 
 .bi {
 	color: $prycolor;
+	height: 35px;
 }
+
+.subheader {
+	@include subheading-font;
+	margin-bottom: 0% !important;
+}
+
+.p-font {
+	@include pfonts;
+}
+
+hr {
+	@include hr-line;
+	margin-top: 0% !important;
+	// padding-top: 0% !important;
+}
+
+// .services {
+// }
 
 // .inverse {
 // 	position: fixed;

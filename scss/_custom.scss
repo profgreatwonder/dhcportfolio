@@ -42,7 +42,7 @@ $prycolor: #00c0a3;
 	$myintro-letter-spacing: -0.02em
 ) {
 	font: {
-		family: times;
+		family: "Times New Roman";
 		// style: normal;
 		weight: 400;
 		size: 35px;
@@ -57,7 +57,7 @@ $prycolor: #00c0a3;
 	$subhead-letter-spacing: 0em
 ) {
 	font: {
-		font-family: Playfair Display;
+		font-family: "Arial";
 		size: 40px;
 		// style: normal;
 		weight: 400;
@@ -115,9 +115,10 @@ $prycolor: #00c0a3;
 
 // button
 @mixin contact-button {
-	// height: 40px;
-	width: 100px;
-	border-radius: 50px;
+	position: relative;
+	padding: 0.1rem 0.95rem;
+	font-weight: 500;
+	margin: 0;
 	background-color: #00c0a3;
 }
 @mixin hireme-button {
@@ -133,6 +134,8 @@ $prycolor: #00c0a3;
 
 // horizontal line
 @mixin hr-line {
-	width: 51.01px;
+	width: 40px;
+	height: 3px !important;
+	margin: 0 auto;
 	color: #00c0a3;
 }
