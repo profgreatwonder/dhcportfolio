@@ -1,0 +1,16 @@
+@use "custom";
+
+// import components
+@use "../scss/components/button";
+
+// import sections
+@use "../scss/sections/navbar";
+@use "../scss/sections/hero";
+@use "../scss/sections/aboutme";
+@use "../scss/sections/techtools";
+@use "../scss/sections/mywork";
+@use "../scss/sections/reviews";
+@use "../scss/sections/pricing";
+@use "../scss/sections/getintouch";
+@use "../scss/sections/certification";
+@use "../scss/sections/footer";
