@@ -25,5 +25,34 @@ body {
 
 .bg-nav-mobile {
   background-color: #00c0a3;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+.myname {
+  font-family: Arial;
+  font-weight: bold;
+  font-size: 30px;
+  line-height: 45px;
+  letter-spacing: -0.02em;
+}
+
+.myintro {
+  font-family: times;
+  font-weight: 400;
+  font-size: 35px;
+  line-height: 53px;
+  letter-spacing: -0.02em;
+  font-family: "Times New Roman";
+}
+
+.hireme {
+  width: 100px;
+  background-color: #00c0a3;
+  border-radius: 10px;
+}
+
+.bi {
+  color: #00c0a3;
 }
 /*# sourceMappingURL=index.css.map */

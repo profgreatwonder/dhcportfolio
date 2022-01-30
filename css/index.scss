@@ -21,6 +21,25 @@ body {
 
 .bg-nav-mobile {
 	background-color: $prycolor;
+	// border-radius: 10px;
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
+}
+
+.myname {
+	@include myname-font;
+}
+
+.myintro {
+	@include myintro-font;
+}
+
+.hireme {
+	@include hireme-button;
+}
+
+.bi {
+	color: $prycolor;
 }
 
 // .inverse {

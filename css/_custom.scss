@@ -30,21 +30,26 @@ $prycolor: #00c0a3;
 		family: Arial;
 		// style: normal;
 		weight: bold;
-		size: 34px;
+		size: 30px;
 	}
 
 	line-height: $myname-line-height;
 	letter-spacing: $myname-letter-spacing;
 }
 
-@mixin myintro-font($myintro-line-height: 53px) {
+@mixin myintro-font(
+	$myintro-line-height: 53px,
+	$myintro-letter-spacing: -0.02em
+) {
 	font: {
-		family: Playfair Display;
+		family: times;
 		// style: normal;
-		weight: normal;
-		size: 40px;
+		weight: 400;
+		size: 35px;
 	}
 	line-height: $myintro-line-height;
+	letter-spacing: $myintro-letter-spacing;
+	font-family: "Times New Roman";
 }
 
 @mixin subheading-font(
@@ -116,8 +121,8 @@ $prycolor: #00c0a3;
 	background-color: #00c0a3;
 }
 @mixin hireme-button {
-	height: 53px;
-	width: 143px;
+	width: 100px;
+	background-color: #00c0a3;
 	border-radius: 10px;
 }
 @mixin getintouch-button {
