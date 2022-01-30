@@ -10,16 +10,20 @@ body {
   letter-spacing: -0.14em;
 }
 
+.navfont {
+  font-family: Roboto;
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 23px;
+}
+
 .contact-btn {
   width: 100px;
   border-radius: 50px;
   background-color: #00c0a3;
 }
 
-.navfont {
-  font-family: Roboto;
-  font-weight: normal;
-  font-size: 15px;
-  line-height: 23px;
+.bg-nav-mobile {
+  background-color: #00c0a3;
 }
 /*# sourceMappingURL=index.css.map */

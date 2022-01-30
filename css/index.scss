@@ -11,12 +11,16 @@ body {
 // .nav-b {
 // 	@include logo-font;
 // }
+
+.navfont {
+	@include nav-font;
+}
 .contact-btn {
 	@include contact-button;
 }
 
-.navfont {
-	@include nav-font;
+.bg-nav-mobile {
+	background-color: $prycolor;
 }
 
 // .inverse {
